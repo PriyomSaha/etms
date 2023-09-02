@@ -21,7 +21,7 @@ export default function DenseAppBar() {
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+          <Typography variant="h7" component="div" sx={{ flexGrow: 1 }}>
             Digital Bus Pass
           </Typography>
           <IconButton size="large" color="inherit">
