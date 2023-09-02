@@ -55,7 +55,7 @@ function ProfileCard() {
               display: "flex",
               flexDirection: "row",
               justifyContent: "space-between", // To align the text at the start and end
-              pt: 1,
+              pt: 2,
             }}
           >
             <Typography variant="h7" sx={{ fontWeight: 300 }}>
@@ -89,7 +89,7 @@ function ProfileCard() {
               display: "flex",
               flexDirection: "row",
               justifyContent: "space-between", // To align the text at the start and end
-              pt: 1,
+              pt: 2,
             }}
           >
             <Typography variant="h7" sx={{ fontWeight: 300 }}>
@@ -123,7 +123,7 @@ function ProfileCard() {
               display: "flex",
               flexDirection: "row",
               justifyContent: "space-between", // To align the text at the start and end
-              pt: 1,
+              pt: 2,
             }}
           >
             <Typography variant="h7" sx={{ fontWeight: 300 }}>
