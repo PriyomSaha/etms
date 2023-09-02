@@ -124,15 +124,15 @@ function ProfileCard() {
               justifyContent: "space-between", // To align the text at the start and end
               pt: 1,
             }}
-          ></Box>
-          <Typography variant="body2" fontSize={14}>
-            {formattedStartDate}
-          </Typography>
-          <Typography fontSize={14} letterSpacing={0.7} textAlign="end">
-            {formattedEndDate}
-          </Typography>
+          >
+            <Typography variant="body2" fontSize={14}>
+              {formattedStartDate}
+            </Typography>
+            <Typography fontSize={14} letterSpacing={0.7} textAlign="end">
+              {formattedEndDate}
+            </Typography>
+          </Box>
         </Box>
-
         <Box mt={1} py={3}>
           <Typography variant="body2" fontSize={14} textAlign={"center"}>
             Route : Dankuni Station To Gitanjali Park And <br /> Return
