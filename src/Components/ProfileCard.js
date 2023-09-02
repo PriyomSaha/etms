@@ -40,10 +40,10 @@ function ProfileCard() {
               pt: 1,
             }}
           >
-            <Typography fontSize={13} letterSpacing={0.7}>
+            <Typography variant="h7" sx={{ fontWeight: 100 }}>
               Name
             </Typography>
-            <Typography fontSize={13} letterSpacing={0.7} textAlign="end">
+            <Typography variant="h7" sx={{ fontWeight: 100 }} textAlign="end">
               Employee ID
             </Typography>
           </Box>
@@ -57,10 +57,10 @@ function ProfileCard() {
               pt: 1,
             }}
           >
-            <Typography variant="body2" fontSize={16}>
+            <Typography variant="h7" sx={{ fontWeight: 400 }}>
               Priyom Saha
             </Typography>
-            <Typography fontSize={16} letterSpacing={0.7} textAlign="end">
+            <Typography variant="h7" sx={{ fontWeight: 400 }} textAlign="end">
               2569121
             </Typography>
           </Box>
@@ -74,10 +74,10 @@ function ProfileCard() {
               pt: 3,
             }}
           >
-            <Typography fontSize={13} letterSpacing={0.7}>
+            <Typography variant="h7" sx={{ fontWeight: 100 }}>
               Bus Stop Name
             </Typography>
-            <Typography fontSize={13} letterSpacing={0.7} textAlign="end">
+            <Typography variant="h7" sx={{ fontWeight: 100 }} textAlign="end">
               Route Type
             </Typography>
           </Box>
@@ -91,10 +91,10 @@ function ProfileCard() {
               pt: 1,
             }}
           >
-            <Typography variant="body2" fontSize={16}>
+            <Typography variant="h7" sx={{ fontWeight: 400 }}>
               Bally Halt
             </Typography>
-            <Typography fontSize={16} letterSpacing={0.7} textAlign="end">
+            <Typography variant="h7" sx={{ fontWeight: 400 }} textAlign="end">
               Both
             </Typography>
           </Box>
@@ -108,10 +108,10 @@ function ProfileCard() {
               pt: 3,
             }}
           >
-            <Typography fontSize={13} letterSpacing={0.7}>
+            <Typography variant="h7" sx={{ fontWeight: 100 }}>
               Start Date
             </Typography>
-            <Typography fontSize={13} letterSpacing={0.7} textAlign="end">
+            <Typography variant="h7" sx={{ fontWeight: 100 }} textAlign="end">
               End Date
             </Typography>
           </Box>
@@ -125,10 +125,10 @@ function ProfileCard() {
               pt: 1,
             }}
           >
-            <Typography variant="body2" fontSize={16}>
+            <Typography variant="h7" sx={{ fontWeight: 400 }}>
               {formattedStartDate}
             </Typography>
-            <Typography fontSize={16} letterSpacing={0.7} textAlign="end">
+            <Typography variant="h7" sx={{ fontWeight: 400 }} textAlign="end">
               {formattedEndDate}
             </Typography>
           </Box>
