@@ -30,7 +30,12 @@ const RouteTimeCard = () => {
           <Typography color={"white"} textAlign="center">
             Dankuni Station
           </Typography>
-          <Typography fontSize={32} color={"white"} textAlign="center">
+          <Typography
+            variant="h1"
+            fontSize={35}
+            color={"white"}
+            textAlign="center"
+          >
             ⇌
           </Typography>
           <Typography color={"white"} textAlign="center">
