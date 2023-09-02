@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import { Box, Paper } from "@mui/material";
+import "./App.css";
+import DenseAppBar from "./Components/DenseAppBar";
+import RouteTimeCard from "./Components/RouteTimeCard";
+import ProfileCard from "./Components/ProfileCard";
+import Logo from "./Components/Logo";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <DenseAppBar />
+      <Box height={"90vh"}>
+        <RouteTimeCard />
+        <ProfileCard />
+        <Logo />
+      </Box>
+    </>
   );
 }
 
