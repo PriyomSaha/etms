@@ -1,4 +1,4 @@
-import { Box, Paper } from "@mui/material";
+import { Box } from "@mui/material";
 import "./App.css";
 import DenseAppBar from "./Components/DenseAppBar";
 import RouteTimeCard from "./Components/RouteTimeCard";

@@ -1,5 +1,4 @@
 import React from "react";
-import Paper from "@mui/material/Paper";
 import TCS_Logo from "./TCS_Logo.avif";
 import { Box } from "@mui/material";
 
