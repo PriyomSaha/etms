@@ -28,6 +28,7 @@ function ProfileCard() {
         sx={{
           width: "90%",
           p: 1,
+          borderRadius: 1,
         }}
       >
         <Box px={1}>
@@ -71,7 +72,7 @@ function ProfileCard() {
               display: "flex",
               flexDirection: "row",
               justifyContent: "space-between", // To align the text at the start and end
-              pt: 3,
+              pt: 4,
             }}
           >
             <Typography variant="h7" sx={{ fontWeight: 200 }}>
@@ -105,7 +106,7 @@ function ProfileCard() {
               display: "flex",
               flexDirection: "row",
               justifyContent: "space-between", // To align the text at the start and end
-              pt: 3,
+              pt: 4,
             }}
           >
             <Typography variant="h7" sx={{ fontWeight: 200 }}>
