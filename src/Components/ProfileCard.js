@@ -37,7 +37,7 @@ function ProfileCard() {
               display: "flex",
               flexDirection: "row",
               justifyContent: "space-between", // To align the text at the start and end
-              pt: 0.5,
+              pt: 1,
             }}
           >
             <Typography fontSize={13} letterSpacing={0.7}>
@@ -133,7 +133,7 @@ function ProfileCard() {
             </Typography>
           </Box>
         </Box>
-        <Box mt={1} py={3}>
+        <Box mt={2} py={3}>
           <Typography variant="body2" fontSize={15} textAlign={"center"}>
             Route : Dankuni Station To Gitanjali Park And <br /> Return
             Via-Airport 1No.
