@@ -57,10 +57,10 @@ function ProfileCard() {
               pt: 1,
             }}
           >
-            <Typography variant="h7" sx={{ fontWeight: 400 }}>
+            <Typography variant="h7" sx={{ fontWeight: 200 }}>
               Priyom Saha
             </Typography>
-            <Typography variant="h7" sx={{ fontWeight: 400 }} textAlign="end">
+            <Typography variant="h7" sx={{ fontWeight: 200 }} textAlign="end">
               2569121
             </Typography>
           </Box>
@@ -91,10 +91,10 @@ function ProfileCard() {
               pt: 1,
             }}
           >
-            <Typography variant="h7" sx={{ fontWeight: 400 }}>
+            <Typography variant="h7" sx={{ fontWeight: 200 }}>
               Bally Halt
             </Typography>
-            <Typography variant="h7" sx={{ fontWeight: 400 }} textAlign="end">
+            <Typography variant="h7" sx={{ fontWeight: 200 }} textAlign="end">
               Both
             </Typography>
           </Box>
@@ -125,10 +125,10 @@ function ProfileCard() {
               pt: 1,
             }}
           >
-            <Typography variant="h7" sx={{ fontWeight: 400 }}>
+            <Typography variant="h7" sx={{ fontWeight: 200 }}>
               {formattedStartDate}
             </Typography>
-            <Typography variant="h7" sx={{ fontWeight: 400 }} textAlign="end">
+            <Typography variant="h7" sx={{ fontWeight: 200 }} textAlign="end">
               {formattedEndDate}
             </Typography>
           </Box>
