@@ -40,10 +40,10 @@ function ProfileCard() {
               pt: 0.5,
             }}
           >
-            <Typography fontSize={12} letterSpacing={0.7}>
+            <Typography fontSize={13} letterSpacing={0.7}>
               Name
             </Typography>
-            <Typography fontSize={12} letterSpacing={0.7} textAlign="end">
+            <Typography fontSize={13} letterSpacing={0.7} textAlign="end">
               Employee ID
             </Typography>
           </Box>
@@ -57,10 +57,10 @@ function ProfileCard() {
               pt: 1,
             }}
           >
-            <Typography variant="body2" fontSize={14}>
+            <Typography variant="body2" fontSize={16}>
               Priyom Saha
             </Typography>
-            <Typography fontSize={14} letterSpacing={0.7} textAlign="end">
+            <Typography fontSize={16} letterSpacing={0.7} textAlign="end">
               2569121
             </Typography>
           </Box>
@@ -74,10 +74,10 @@ function ProfileCard() {
               pt: 3,
             }}
           >
-            <Typography fontSize={12} letterSpacing={0.7}>
+            <Typography fontSize={13} letterSpacing={0.7}>
               Bus Stop Name
             </Typography>
-            <Typography fontSize={12} letterSpacing={0.7} textAlign="end">
+            <Typography fontSize={13} letterSpacing={0.7} textAlign="end">
               Route Type
             </Typography>
           </Box>
@@ -91,10 +91,10 @@ function ProfileCard() {
               pt: 1,
             }}
           >
-            <Typography variant="body2" fontSize={14}>
+            <Typography variant="body2" fontSize={16}>
               Bally Halt
             </Typography>
-            <Typography fontSize={14} letterSpacing={0.7} textAlign="end">
+            <Typography fontSize={16} letterSpacing={0.7} textAlign="end">
               Both
             </Typography>
           </Box>
@@ -108,10 +108,10 @@ function ProfileCard() {
               pt: 3,
             }}
           >
-            <Typography fontSize={12} letterSpacing={0.7}>
+            <Typography fontSize={13} letterSpacing={0.7}>
               Start Date
             </Typography>
-            <Typography fontSize={12} letterSpacing={0.7} textAlign="end">
+            <Typography fontSize={13} letterSpacing={0.7} textAlign="end">
               End Date
             </Typography>
           </Box>
@@ -125,16 +125,16 @@ function ProfileCard() {
               pt: 1,
             }}
           >
-            <Typography variant="body2" fontSize={14}>
+            <Typography variant="body2" fontSize={16}>
               {formattedStartDate}
             </Typography>
-            <Typography fontSize={14} letterSpacing={0.7} textAlign="end">
+            <Typography fontSize={16} letterSpacing={0.7} textAlign="end">
               {formattedEndDate}
             </Typography>
           </Box>
         </Box>
         <Box mt={1} py={3}>
-          <Typography variant="body2" fontSize={14} textAlign={"center"}>
+          <Typography variant="body2" fontSize={15} textAlign={"center"}>
             Route : Dankuni Station To Gitanjali Park And <br /> Return
             Via-Airport 1No.
           </Typography>
